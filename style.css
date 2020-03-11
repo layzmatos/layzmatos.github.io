@@ -37,7 +37,7 @@ body {
 }
 @media screen and (max-width: 992px) {
   .block01 .container .left .title {
-    font-size: 52px;
+    font-size: 46px;
   }
 }
 .block01 .container .left .txt {
@@ -46,7 +46,7 @@ body {
 }
 @media screen and (max-width: 992px) {
   .block01 .container .left .txt {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 .block01 .container .left .btn {
@@ -484,7 +484,7 @@ body {
 .block06 {
   background-color: #f14150;
   color: #F2F2F2;
-  padding: 50px 0;
+  padding: 50px 0 0 0;
   margin-top: 90px;
 }
 .block06 .container {
@@ -502,8 +502,14 @@ body {
   }
 }
 .block06 .container .title .changeBox {
+  margin-left: 20px;
   height: 52px;
   overflow: hidden;
+}
+@media screen and (max-width: 992px) {
+  .block06 .container .title .changeBox {
+    margin-left: 0;
+  }
 }
 .block06 .container .title .changeBox .words {
   margin: 0;
@@ -555,7 +561,7 @@ body {
   }
 }
 .block06 .container .social {
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 .block06 .container .social a {
   color: #F2F2F2;
@@ -569,8 +575,10 @@ body {
 }
 .block06 .dev {
   font-size: 8px;
-  position: relative;
-  bottom: 0px;
+  margin: 0;
+}
+.block06 .dev a {
+  color: #F2F2F2;
 }
 
 .menu {
@@ -695,6 +703,11 @@ body {
   display: flex;
   padding: 20px;
 }
+@media screen and (max-width: 992px) {
+  .allProjects .overlay .miniContainer .content {
+    display: block;
+  }
+}
 .allProjects .overlay .miniContainer .content:nth-child(odd) {
   flex-direction: row;
 }
@@ -713,12 +726,23 @@ body {
 .allProjects .overlay .miniContainer .content .text .txt {
   font-size: 14px;
 }
+@media screen and (max-width: 992px) {
+  .allProjects .overlay .miniContainer .content .text {
+    max-width: 100%;
+    padding: 10px 0;
+  }
+}
 .allProjects .overlay .miniContainer .content .image {
   width: 100%;
   max-width: 50%;
 }
 .allProjects .overlay .miniContainer .content .image img {
   max-width: 100%;
+}
+@media screen and (max-width: 992px) {
+  .allProjects .overlay .miniContainer .content .image {
+    max-width: 100%;
+  }
 }
 .allProjects .overlay.open {
   display: flex;
