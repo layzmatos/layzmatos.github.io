@@ -5,7 +5,7 @@ a {
 body {
   margin: 0;
   padding: 0;
-  background-color: #0D0D0D;
+  background: linear-gradient(to bottom, #0D0D0D, black);
   color: #F2F2F2;
   font-family: "Spartan", sans-serif;
 }
@@ -671,10 +671,11 @@ body {
 }
 .allProjects .overlay .miniContainer {
   width: 90%;
-  height: 80%;
+  height: 83%;
   background-color: #F2F2F2;
   margin: auto;
   border-radius: 2px;
+  overflow-y: scroll;
 }
 .allProjects .overlay .miniContainer span {
   background-color: #731212;
@@ -682,7 +683,7 @@ body {
   bottom: 10px;
   left: calc(50% - 22px);
   border-radius: 50%;
-  padding: 10px 12px;
+  padding: 12px 13px 10px 12px;
   font-weight: 200;
   font-family: "Oxanium", sans-serif;
   font-size: 25px;
@@ -694,11 +695,33 @@ body {
   display: flex;
   padding: 20px;
 }
+.allProjects .overlay .miniContainer .content:nth-child(odd) {
+  flex-direction: row;
+}
+.allProjects .overlay .miniContainer .content:nth-child(even) {
+  flex-direction: row-reverse;
+}
 .allProjects .overlay .miniContainer .content .text {
   color: #0D0D0D;
+  width: 100%;
+  max-width: 50%;
+  padding: 25px;
+}
+.allProjects .overlay .miniContainer .content .text .title {
+  font-size: 18px;
+}
+.allProjects .overlay .miniContainer .content .text .txt {
+  font-size: 14px;
+}
+.allProjects .overlay .miniContainer .content .image {
+  width: 100%;
+  max-width: 50%;
 }
 .allProjects .overlay .miniContainer .content .image img {
   max-width: 100%;
+}
+.allProjects .overlay.open {
+  display: flex;
 }
 
 @keyframes openGallery {

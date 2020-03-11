@@ -1,6 +1,7 @@
 window.onload = function(){
     menu();
     watchMenu();
+    allProjects();
 }
 
 
@@ -29,4 +30,17 @@ function animationMenu(){
     for (var i = 0; i< elementos.length; i++){
         elementos[i].classList.toggle("open");
     }
+}
+
+function allProjects(){
+    var over = document.querySelector(".allProjects .overlay");
+    
+    var btnProjects = document.getElementById("btnProjects");
+    btnProjects.addEventListener("click", function(){
+        over.classList.toggle("open");    
+    });
+    var closeProjects = document.getElementById("closeProjects");
+    closeProjects.addEventListener("click", function(){
+        over.classList.toggle("open");
+    });
 }
