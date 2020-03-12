@@ -155,7 +155,6 @@ body{
             text-align: left;
             .title{
                 font-size: 42px;
-                animation: titleAnimation 0.8s ease;
                 @media screen and (max-width:992px) {
                     font-size: 36px;
                     text-align: left;
@@ -253,7 +252,6 @@ body{
             max-width: 40%;
             .title{
                 font-size: 42px;
-                animation: titleAnimation 0.8s ease;
                 @media screen and (max-width:992px) {
                     font-size: 36px;
                     text-align: left;
@@ -356,7 +354,6 @@ body{
             max-width: 40%;
             .title{
                 font-size: 42px;
-                animation: titleAnimation 0.8s ease;
                 @media screen and (max-width:992px) {
                     font-size: 36px;
                     text-align: left;
@@ -427,7 +424,7 @@ body{
 .block06{
     background-color: darken($pink,2%);
     color: $white;
-    padding: 50px 0 0 0;
+    padding: 50px 0 10px 10px;
     margin-top: 90px;
     .container{
         text-align: center;
@@ -489,7 +486,7 @@ body{
             }
         }
         .social{
-            padding-bottom: 80px;
+            padding-bottom: 90px;
             a{
                 color: $white;
                 font-size: 36px;
@@ -675,27 +672,7 @@ body{
     100%{        
             display: block;
     }
-}
-@keyframes titleAnimation{
-    0%{
-        margin-left: -200%;
-    }
-    70%{
-        margin-left: 2%;
-    }
-    80%{
-        margin-left:-1%;
-    }
-    90%{
-        margin-left:.5%;
-    }
-    95%{
-        margin-left:-.3%;
-    }
-    100%{
-        margin-left: 0%;
-    }
-}  
+} 
 @keyframes change {
     0%,100% {margin-top:0}
     12%,84% {margin-top:-62px}

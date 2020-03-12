@@ -172,7 +172,6 @@ body {
 }
 .block02 .container .left .title {
   font-size: 42px;
-  animation: titleAnimation 0.8s ease;
 }
 @media screen and (max-width: 992px) {
   .block02 .container .left .title {
@@ -287,7 +286,6 @@ body {
 }
 .block03 .container .left .title {
   font-size: 42px;
-  animation: titleAnimation 0.8s ease;
 }
 @media screen and (max-width: 992px) {
   .block03 .container .left .title {
@@ -401,7 +399,6 @@ body {
 }
 .block04 .container .left .title, .block05 .container .left .title {
   font-size: 42px;
-  animation: titleAnimation 0.8s ease;
 }
 @media screen and (max-width: 992px) {
   .block04 .container .left .title, .block05 .container .left .title {
@@ -484,7 +481,7 @@ body {
 .block06 {
   background-color: #f14150;
   color: #F2F2F2;
-  padding: 50px 0 0 0;
+  padding: 50px 0 10px 10px;
   margin-top: 90px;
 }
 .block06 .container {
@@ -561,7 +558,7 @@ body {
   }
 }
 .block06 .container .social {
-  padding-bottom: 80px;
+  padding-bottom: 90px;
 }
 .block06 .container .social a {
   color: #F2F2F2;
@@ -757,26 +754,6 @@ body {
   }
   100% {
     display: block;
-  }
-}
-@keyframes titleAnimation {
-  0% {
-    margin-left: -200%;
-  }
-  70% {
-    margin-left: 2%;
-  }
-  80% {
-    margin-left: -1%;
-  }
-  90% {
-    margin-left: 0.5%;
-  }
-  95% {
-    margin-left: -0.3%;
-  }
-  100% {
-    margin-left: 0%;
   }
 }
 @keyframes change {
