@@ -357,19 +357,19 @@ body {
   animation: openGallery 2s;
 }
 .block03 .portfolio #item01 {
-  background-image: url(/images/img.png);
+  background-image: url(/images/port-1.jpg);
 }
 .block03 .portfolio #item02 {
-  background-image: url(/images/img.png);
+  background-image: url(/images/port-2.jpg);
 }
 .block03 .portfolio #item03 {
-  background-image: url(/images/img.png);
+  background-image: url(/images/port-3.jpg);
 }
 .block03 .portfolio #item04 {
-  background-image: url(/images/img.png);
+  background-image: url(/images/port-4.jpg);
 }
 .block03 .portfolio #item05 {
-  background-image: url(/images/img.png);
+  background-image: url(/images/port-5.jpg);
 }
 .block03 .btn {
   text-decoration: none;
