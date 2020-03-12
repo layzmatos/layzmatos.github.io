@@ -2,6 +2,13 @@ window.onload = function(){
     menu();
     watchMenu();
     allProjects();
+    var slideUp = {
+        distance: '150%',
+        origin: 'left',
+        opacity: null
+    };
+    
+    ScrollReveal().reveal('.tAnimated', slideUp);
 }
 
 
